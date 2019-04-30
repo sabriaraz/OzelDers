@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OzelDers.DTO\OzelDers.DTO.csproj" />
+    <ProjectReference Include="..\OzelDers.REP\OzelDers.REP.csproj" />
+  </ItemGroup>
+
+</Project>
