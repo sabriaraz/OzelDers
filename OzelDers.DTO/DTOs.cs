@@ -7,14 +7,6 @@ namespace OzelDers.DTO
 {
     public class DTOs
     {
-        public class derslerDTO
-        {
-            public int egitmenId  { get; set; }
-            public string EgitmenAd  { get; set; }
-            public string DersKonusu   { get; set; }
-            public List<AraTablo> AraTablo { get; set; }
-            
-        }
         public class IlDTO
         {
             public int id { get; set; }

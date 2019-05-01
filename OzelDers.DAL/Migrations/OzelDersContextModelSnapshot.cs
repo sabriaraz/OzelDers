@@ -28,6 +28,8 @@ namespace OzelDers.DAL.Migrations
 
                     b.Property<int>("EgitmenId");
 
+                    b.Property<decimal>("Fiyat");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DersKonusuId");
@@ -74,8 +76,6 @@ namespace OzelDers.DAL.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Ad");
-
-                    b.Property<decimal>("Fiyat");
 
                     b.Property<int>("IlceId");
 

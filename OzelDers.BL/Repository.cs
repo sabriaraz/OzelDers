@@ -113,7 +113,6 @@ namespace OzelDers.BL
                     ad = x.Ad,
                     ilceId = x.IlceId,
                     //dersKonusuId = x.DersKonusuId,
-                    fiyat = x.Fiyat,
                     ozgecmis = x.Ozgecmis,
                     telefonNo = x.TelefonNo
                 }).ToList();

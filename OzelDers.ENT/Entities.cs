@@ -57,6 +57,7 @@ namespace OzelDers.ENT
         public class   AraTablo
         {
             public int Id { get; set; }
+            public decimal Fiyat { get; set; }
 
             public int EgitmenId { get; set; }
             [ForeignKey("EgitmenId")]
@@ -80,10 +81,9 @@ namespace OzelDers.ENT
             public virtual Ilce Ilce { get; set; }
 
 
-            public decimal Fiyat { get; set; }
+            
             public string Ozgecmis { get; set; }
             public double TelefonNo { get; set; }
-
             public virtual ICollection<AraTablo> AraTablo { get; set; }
         }
     }

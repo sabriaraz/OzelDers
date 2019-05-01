@@ -11,7 +11,7 @@ namespace OzelDers.DAL
         public OzelDersContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<OzelDersContext>();
-            var connectionString = "Server=.;Database=OzelDersDB;Trusted_Connection=True;";
+            var connectionString = "Server=ARAZ\\SQLEXPRESS;Database=OzelDersDB;Trusted_Connection=True;";
             builder.UseSqlServer(connectionString);
             return new OzelDersContext(builder.Options);
         }

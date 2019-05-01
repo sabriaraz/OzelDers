@@ -20,15 +20,16 @@ namespace OzelDers.CORE.Controllers
         }
         public IActionResult Liste()
         {
-            //List<derslerDTO> dList = db.Set<Egitmen>().Select(x => new derslerDTO {
-            //        egitmenId = x.Id,
-            //        EgitmenAd = x.Ad,
-            //        AraTablo = x.AraTablo.ToList(),
 
-            //}).ToList();
-            List<Egitmen> dList = db.Set<Egitmen>().ToList();
+            List<AraTablo> araTablo = db.Set<AraTablo>().Where(x => x.DersKonusuId == 1).ToList();
+            List<int> elist = new List<int>();
+            foreach (var item in araTablo)
+            {
+                elist.Add(item.EgitmenId);
+            }
 
-            return Json(dList);
+            List<Egitmen> egitmenList = db.Set<Egitmen>().ToList();
+            return Json(egitmenList);
         }
     }
 }
