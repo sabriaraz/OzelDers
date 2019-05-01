@@ -24,6 +24,8 @@ namespace OzelDers.DAL.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("DersKonusuAd");
+
                     b.Property<int>("DersKonusuId");
 
                     b.Property<int>("EgitmenId");

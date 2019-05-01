@@ -9,8 +9,8 @@ using OzelDers.DAL;
 namespace OzelDers.DAL.Migrations
 {
     [DbContext(typeof(OzelDersContext))]
-    [Migration("20190429150547_iki")]
-    partial class iki
+    [Migration("20190501094638_derskonusuAdAdded")]
+    partial class derskonusuAdAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,9 +26,13 @@ namespace OzelDers.DAL.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("DersKonusuAd");
+
                     b.Property<int>("DersKonusuId");
 
                     b.Property<int>("EgitmenId");
+
+                    b.Property<decimal>("Fiyat");
 
                     b.HasKey("Id");
 
@@ -76,8 +80,6 @@ namespace OzelDers.DAL.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Ad");
-
-                    b.Property<decimal>("Fiyat");
 
                     b.Property<int>("IlceId");
 

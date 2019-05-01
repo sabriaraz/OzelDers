@@ -13,22 +13,35 @@ namespace OzelDers.CORE.Controllers
     public class DerslerController : Controller
     {
         OzelDersContext db;
-        public DerslerController(OzelDersContext _db)
+        List<int> egitmenIdList;
+        public DerslerController(OzelDersContext _db, List<int> _egitmenIdList)
         {
             db = _db;
+            egitmenIdList = _egitmenIdList;
 
         }
+        int dersKonusuId = 1;
         public IActionResult Liste()
         {
+            List<AraTablo> araTablo = db.Set<AraTablo>().Where(x => x.DersKonusuId == dersKonusuId).ToList();
 
-            List<AraTablo> araTablo = db.Set<AraTablo>().Where(x => x.DersKonusuId == 1).ToList();
-            List<int> elist = new List<int>();
             foreach (var item in araTablo)
             {
-                elist.Add(item.EgitmenId);
+                egitmenIdList.Add(item.EgitmenId);
             }
 
-            List<Egitmen> egitmenList = db.Set<Egitmen>().ToList();
+            List<EgitmenDTO> egitmenList = db.Set<Egitmen>().Where(x => egitmenIdList.Contains(x.Id)).Select(x => new EgitmenDTO
+            {
+                id = x.Id,
+                ad = x.Ad,
+                telefonNo = x.TelefonNo,
+                ozgecmis = x.Ozgecmis,
+                ilceAd = x.Ilce.Ad,
+                ilceId = x.IlceId,
+                AraTablo = x.AraTablo.ToList()
+
+            }).ToList();
+            
             return Json(egitmenList);
         }
     }

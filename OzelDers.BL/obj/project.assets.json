@@ -4942,11 +4942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
+      "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
       "projectName": "OzelDers.BL",
-      "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
+      "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
       "packagesPath": "C:\\Users\\Sabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.BL\\obj\\",
+      "outputPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4965,11 +4965,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj": {
-              "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj"
+            "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj": {
+              "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj"
             },
-            "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj": {
-              "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj"
+            "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj": {
+              "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj"
             }
           }
         }

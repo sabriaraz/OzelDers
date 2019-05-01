@@ -43,3 +43,12 @@ C:\Users\Sabri\Desktop\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.EN
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfo.cs
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.dll
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.deps.json
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csprojAssemblyReference.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csproj.CoreCompileInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfoInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfo.cs
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.pdb

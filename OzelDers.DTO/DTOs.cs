@@ -34,8 +34,8 @@ namespace OzelDers.DTO
             public int id { get; set; }
             public string ad { get; set; }
             public int ilceId { get; set; }
-            public int dersKonusuId { get; set; }
-            public decimal fiyat { get; set; }
+            public string ilceAd { get; set; }
+            public List<AraTablo>  AraTablo { get; set; }
             public string ozgecmis { get; set; }
             public double telefonNo { get; set; }
         }

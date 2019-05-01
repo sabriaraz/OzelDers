@@ -58,7 +58,7 @@ namespace OzelDers.ENT
         {
             public int Id { get; set; }
             public decimal Fiyat { get; set; }
-
+            public string DersKonusuAd { get; set; }
             public int EgitmenId { get; set; }
             [ForeignKey("EgitmenId")]
             public virtual Egitmen Egitmen { get; set; }

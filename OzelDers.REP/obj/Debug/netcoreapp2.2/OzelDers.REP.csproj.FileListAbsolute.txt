@@ -68,3 +68,17 @@ C:\Users\Sabri\Desktop\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.RE
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.csproj.CopyComplete
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.dll
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.REP.deps.json
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.REP.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.REP.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.DAL.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.DAL.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.csprojAssemblyReference.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.csproj.CoreCompileInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.AssemblyInfoInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.AssemblyInfo.cs
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.csproj.CopyComplete
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.REP\obj\Debug\netcoreapp2.2\OzelDers.REP.pdb

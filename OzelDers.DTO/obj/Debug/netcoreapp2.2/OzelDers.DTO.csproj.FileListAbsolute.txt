@@ -52,3 +52,15 @@ C:\Users\Sabri\Desktop\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DT
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.csproj.CopyComplete
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.dll
 C:\Users\Sabri\Desktop\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\bin\Debug\netcoreapp2.2\OzelDers.DTO.deps.json
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\bin\Debug\netcoreapp2.2\OzelDers.DTO.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\bin\Debug\netcoreapp2.2\OzelDers.DTO.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.csprojAssemblyReference.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.AssemblyInfoInputs.cache
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.AssemblyInfo.cs
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.csproj.CopyComplete
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.dll
+C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.DTO\obj\Debug\netcoreapp2.2\OzelDers.DTO.pdb

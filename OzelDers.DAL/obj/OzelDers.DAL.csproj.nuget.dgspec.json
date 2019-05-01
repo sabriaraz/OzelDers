@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj": {}
+    "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj": {
+    "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj",
         "projectName": "OzelDers.DAL",
-        "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj",
+        "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DAL\\OzelDers.DAL.csproj",
         "packagesPath": "C:\\Users\\Sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj": {
-                "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj"
+              "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj": {
+                "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj": {
+    "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
+        "projectUniqueName": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
         "projectName": "OzelDers.ENT",
-        "projectPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
+        "projectPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
         "packagesPath": "C:\\Users\\Sabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sabri\\Desktop\\OzelDers\\OzelDers.ENT\\obj\\",
+        "outputPath": "C:\\Users\\Sabri\\Desktop\\PP\\OzelDers\\OzelDers.ENT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
