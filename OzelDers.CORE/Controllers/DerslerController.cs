@@ -14,6 +14,7 @@ namespace OzelDers.CORE.Controllers
     {
         OzelDersContext db;
         List<int> egitmenIdList;
+
         public DerslerController(OzelDersContext _db, List<int> _egitmenIdList)
         {
             db = _db;
