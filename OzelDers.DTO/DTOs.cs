@@ -33,6 +33,9 @@ namespace OzelDers.DTO
         {
             public int id { get; set; }
             public string ad { get; set; }
+            public string soyadAd { get; set; }
+            public string eMail { get; set; }
+            public string password { get; set; }
             public int ilceId { get; set; }
             public string ilceAd { get; set; }
             public List<AraTablo>  AraTablo { get; set; }

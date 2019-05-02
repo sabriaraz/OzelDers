@@ -75,6 +75,10 @@ namespace OzelDers.ENT
             [Key]
             public int Id { get; set; }
             public string Ad { get; set; }
+            public string SoyadAd { get; set; }
+            public string eMail { get; set; }
+            public byte[] PasswordHash { get; set; }
+            public byte[] PasswordSalt { get; set; }
 
             public int IlceId { get; set; }
             [ForeignKey("IlceId")]
