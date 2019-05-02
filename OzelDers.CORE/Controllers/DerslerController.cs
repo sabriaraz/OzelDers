@@ -22,7 +22,8 @@ namespace OzelDers.CORE.Controllers
 
         }
         int dersKonusuId = 1;
-        public IActionResult Liste()
+
+        public IActionResult Liste(int Id)
         {
             List<AraTablo> araTablo = db.Set<AraTablo>().Where(x => x.DersKonusuId == dersKonusuId).ToList();
 
