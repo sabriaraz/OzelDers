@@ -17,15 +17,12 @@ namespace OzelDers.CORE.Controllers
         List<int> egitmenIdList;
         EgitmenRepository eRep;
         AraTabloRepository araRep;
-        DersKonusuRepository dkRep;
         public DerslerController(OzelDersContext _db, List<int> _egitmenIdList, EgitmenRepository _eRep, AraTabloRepository _araRep)
         {
-            dkRep = _dkRep;
             eRep = _eRep;
             db = _db;
             araRep = _araRep;
             egitmenIdList = _egitmenIdList;
-
         }
 
         [HttpGet]
