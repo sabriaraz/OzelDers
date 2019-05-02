@@ -18,7 +18,7 @@ namespace OzelDers.CORE.Controllers
         EgitmenRepository eRep;
         AraTabloRepository araRep;
         DersKonusuRepository dkRep;
-        public DerslerController(OzelDersContext _db, List<int> _egitmenIdList, DersKonusuRepository _dkRep,EgitmenRepository _eRep, AraTabloRepository _araRep)
+        public DerslerController(OzelDersContext _db, List<int> _egitmenIdList, EgitmenRepository _eRep, AraTabloRepository _araRep)
         {
             dkRep = _dkRep;
             eRep = _eRep;
