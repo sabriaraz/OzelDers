@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OzelDers.DAL;
+using static OzelDers.BL.Repository;
 using static OzelDers.DTO.DTOs;
 using static OzelDers.ENT.Entities;
 
@@ -14,36 +15,30 @@ namespace OzelDers.CORE.Controllers
     {
         OzelDersContext db;
         List<int> egitmenIdList;
-
-        public DerslerController(OzelDersContext _db, List<int> _egitmenIdList)
+        EgitmenRepository eRep;
+        AraTabloRepository araRep;
+        DersKonusuRepository dkRep;
+        public DerslerController(OzelDersContext _db, List<int> _egitmenIdList, DersKonusuRepository _dkRep,EgitmenRepository _eRep, AraTabloRepository _araRep)
         {
+            dkRep = _dkRep;
+            eRep = _eRep;
             db = _db;
+            araRep = _araRep;
             egitmenIdList = _egitmenIdList;
 
         }
-        int dersKonusuId = 1;
 
-        public IActionResult Liste(int Id)
+        [HttpGet]
+        public IActionResult ListAll()
         {
-            List<AraTablo> araTablo = db.Set<AraTablo>().Where(x => x.DersKonusuId == dersKonusuId).ToList();
-
-            foreach (var item in araTablo)
-            {
-                egitmenIdList.Add(item.EgitmenId);
-            }
-
-            List<EgitmenDTO> egitmenList = db.Set<Egitmen>().Where(x => egitmenIdList.Contains(x.Id)).Select(x => new EgitmenDTO
-            {
-                id = x.Id,
-                ad = x.Ad,
-                telefonNo = x.TelefonNo,
-                ozgecmis = x.Ozgecmis,
-                ilceAd = x.Ilce.Ad,
-                ilceId = x.IlceId,
-                AraTablo = x.AraTablo.ToList()
-
-            }).ToList();
-            
+            List<EgitmenDTO> egitmenList = eRep.Doldur().ToList();
+            return Json(egitmenList);
+        }
+        [HttpPost]
+        public IActionResult ListForID(int Id)
+        {
+            List<int> egitmenIdList = araRep.egitmenIdList(Id);
+            List<EgitmenDTO> egitmenList = eRep.Doldur(egitmenIdList).ToList();
             return Json(egitmenList);
         }
     }

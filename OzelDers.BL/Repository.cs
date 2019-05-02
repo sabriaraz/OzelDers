@@ -12,6 +12,20 @@ namespace OzelDers.BL
 {
     public class Repository
     {
+        public class AraTabloRepository : BaseRepository<AraTablo>
+        {
+            public AraTabloRepository(OzelDersContext db) : base(db)
+            {
+
+            }
+            public List<int> egitmenIdList (int dersKonusuId)
+            {
+                return Set().Where(x => x.DersKonusuId == dersKonusuId).Select(x => x.EgitmenId).ToList();
+            }
+
+
+        }
+
         public class IlRepository : BaseRepository<Il>
         {
             public IlRepository(OzelDersContext db) : base(db)
@@ -100,23 +114,36 @@ namespace OzelDers.BL
             {
 
             }
-            public async Task<ICollection<Egitmen>> AsnDoldur()
-            {
-                return await ListAll();
-
-            }
             public ICollection<EgitmenDTO> Doldur()
             {
                 return Set().Select(x => new EgitmenDTO
                 {
                     id = x.Id,
                     ad = x.Ad,
-                    ilceId = x.IlceId,
-                    //dersKonusuId = x.DersKonusuId,
+                    telefonNo = x.TelefonNo,
                     ozgecmis = x.Ozgecmis,
-                    telefonNo = x.TelefonNo
+                    ilceAd = x.Ilce.Ad,
+                    ilceId = x.IlceId,
+                    AraTablo = x.AraTablo.ToList()
                 }).ToList();
+
             }
+
+            public ICollection<EgitmenDTO> Doldur(List<int> egitmenIdList)
+            {
+                return Set().Where(x => egitmenIdList.Contains(x.Id)).Select(x => new EgitmenDTO
+                {
+                    id = x.Id,
+                    ad = x.Ad,
+                    telefonNo = x.TelefonNo,
+                    ozgecmis = x.Ozgecmis,
+                    ilceAd = x.Ilce.Ad,
+                    ilceId = x.IlceId,
+                    AraTablo = x.AraTablo.ToList()
+                }).ToList();
+
+            }
+           
         }
     }
 }

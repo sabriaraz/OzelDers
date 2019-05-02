@@ -18,7 +18,7 @@ namespace OzelDers.DAL
         public DbSet<DersAlani> DersAlani { get; set; }
         public DbSet<DersKonusu> DersKonusu { get; set; }
         public DbSet<Egitmen> Egitmen { get; set; }
-       
+        public DbSet<AraTablo> AraTablo { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             

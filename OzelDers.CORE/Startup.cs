@@ -42,6 +42,7 @@ namespace OzelDers.CORE
             services.AddScoped<DersAlaniRepository>();
             services.AddScoped<DersKonusuRepository>();
             services.AddScoped<EgitmenRepository>();
+            services.AddScoped<AraTabloRepository>();
             services.AddScoped<List<System.Int32>>();
             services.AddCors();
             services.AddAutoMapper();
