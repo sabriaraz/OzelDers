@@ -45,7 +45,23 @@ namespace OzelDers.CORE.Services
 
         public Egitmen Create(Egitmen egitmen, string password)
         {
-            throw new NotImplementedException();
+            // validation
+            if (string.IsNullOrWhiteSpace(password))
+                throw new Exception("Password is required");
+
+            if (_context.Egitmen.Any(x => x.eMail == egitmen.eMail))
+                throw new Exception("Username \"" + egitmen.eMail + "\" is already taken");
+
+            byte[] passwordHash, passwordSalt;
+            CreatePasswordHash(password, out passwordHash, out passwordSalt);
+
+            egitmen.PasswordHash = passwordHash;
+            egitmen.PasswordSalt = passwordSalt;
+
+            _context.Egitmen.Add(egitmen);
+            _context.SaveChanges();
+
+            return egitmen;
         }
 
         public void Delete(int id)
@@ -97,7 +113,7 @@ namespace OzelDers.CORE.Services
 
         public Egitmen GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Egitmen.Find(id);
         }
     }
 }

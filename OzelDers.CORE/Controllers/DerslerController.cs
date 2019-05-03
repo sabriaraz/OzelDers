@@ -38,5 +38,6 @@ namespace OzelDers.CORE.Controllers
             List<EgitmenDTO> egitmenList = eRep.Doldur(egitmenIdList).ToList();
             return Json(egitmenList);
         }
+       
     }
 }

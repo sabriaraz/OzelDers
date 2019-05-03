@@ -19,6 +19,7 @@ namespace OzelDers.CORE.Controllers
             map = _map;
             ilceRep = _ilceRep;
         }
+      
         public IActionResult Liste()
         {
             ICollection<IlceDTO> ilcelist = ilceRep.Doldur();
