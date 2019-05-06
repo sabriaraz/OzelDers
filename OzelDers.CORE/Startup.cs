@@ -17,6 +17,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using OzelDers.CORE.Services;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OzelDers.CORE
 {
@@ -49,6 +51,7 @@ namespace OzelDers.CORE
             services.AddScoped<EgitmenRepository>();
             services.AddScoped<AraTabloRepository>();
             services.AddScoped<AraTabloRepository>();
+            services.AddAuthorization();
             services.AddScoped<List<System.Int32>>();
             services.AddCors();
             services.AddAutoMapper();
@@ -100,6 +103,11 @@ namespace OzelDers.CORE
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+
+            // your authorisation configuration
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -109,6 +117,9 @@ namespace OzelDers.CORE
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            //(app);
+
+            app.UseAuthentication();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 

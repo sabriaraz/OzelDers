@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OzelDers.DAL;
@@ -26,6 +27,7 @@ namespace OzelDers.CORE.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult ListAll()
         {
             List<EgitmenDTO> egitmenList = eRep.Doldur().ToList();

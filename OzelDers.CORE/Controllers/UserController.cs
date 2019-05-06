@@ -43,6 +43,8 @@ namespace OzelDers.CORE.Controllers
         [Authorize]
         public IActionResult TEST()
         {
+            var a = HttpContext.Request;
+
             List<EgitmenDTO> eList = db.Set<Egitmen>().Select(x => new EgitmenDTO
             {
                 ad = x.Ad,
@@ -55,6 +57,7 @@ namespace OzelDers.CORE.Controllers
                 password = x.PasswordHash.ToString(),
                 telefonNo = x.TelefonNo,
             }).ToList();
+          
             return Ok(eList);
         }
 
@@ -80,6 +83,7 @@ namespace OzelDers.CORE.Controllers
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
+              
 
             // return basic user info (without password) and token to store client side
             return Ok(new
