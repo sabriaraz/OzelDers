@@ -19,6 +19,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using OzelDers.CORE.Services;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Security.Principal;
 
 namespace OzelDers.CORE
 {
@@ -50,11 +52,15 @@ namespace OzelDers.CORE
             services.AddScoped<DersKonusuRepository>();
             services.AddScoped<EgitmenRepository>();
             services.AddScoped<AraTabloRepository>();
-            services.AddScoped<AraTabloRepository>();
             services.AddAuthorization();
             services.AddScoped<List<System.Int32>>();
             services.AddCors();
+            
             services.AddAutoMapper();
+            services.AddTransient<IPrincipal>(provider => provider.GetService<IHttpContextAccessor>().HttpContext.User);
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
 
             // configure strongly typed settings objects
             var appSettingsSection = Configuration.GetSection("AppSettings");

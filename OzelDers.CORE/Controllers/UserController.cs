@@ -13,12 +13,8 @@ using static OzelDers.DTO.DTOs;
 using static OzelDers.ENT.Entities;
 using OzelDers.DAL;
 using System.Collections.Generic;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using OzelDers.CORE.Models;
 
 namespace OzelDers.CORE.Controllers
@@ -39,27 +35,7 @@ namespace OzelDers.CORE.Controllers
             _mapper = mapper;
             _appSettings = appSettings.Value;
         }
-        [HttpGet]
-        [Authorize]
-        public IActionResult TEST()
-        {
-            var a = HttpContext.Request;
-
-            List<EgitmenDTO> eList = db.Set<Egitmen>().Select(x => new EgitmenDTO
-            {
-                ad = x.Ad,
-                soyadAd = x.SoyadAd,
-                eMail = x.eMail,
-                ilceAd = x.Ilce.Ad,
-                ilceId = x.IlceId,
-                ozgecmis = x.Ozgecmis,
-                AraTablo = x.AraTablo.ToList(),
-                password = x.PasswordHash.ToString(),
-                telefonNo = x.TelefonNo,
-            }).ToList();
-          
-            return Ok(eList);
-        }
+        
 
         [AllowAnonymous]
         [HttpPost]
