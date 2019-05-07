@@ -4942,11 +4942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
+      "projectUniqueName": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
       "projectName": "OzelDers.BL",
-      "projectPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
+      "projectPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.BL\\OzelDers.BL.csproj",
       "packagesPath": "C:\\Users\\hkn_k\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.BL\\obj\\",
+      "outputPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4965,11 +4965,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj": {
-              "projectPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj"
+            "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj": {
+              "projectPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.DTO\\OzelDers.DTO.csproj"
             },
-            "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj": {
-              "projectPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj"
+            "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj": {
+              "projectPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.REP\\OzelDers.REP.csproj"
             }
           }
         }

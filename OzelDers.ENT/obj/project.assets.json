@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
+      "projectUniqueName": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
       "projectName": "OzelDers.ENT",
-      "projectPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
+      "projectPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.ENT\\OzelDers.ENT.csproj",
       "packagesPath": "C:\\Users\\hkn_k\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hkn_k\\Desktop\\Yeni klasör (4)\\OzelDers\\OzelDers.ENT\\obj\\",
+      "outputPath": "C:\\Users\\hkn_k\\Desktop\\Project\\OzelDers\\OzelDers.ENT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

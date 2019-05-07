@@ -52,3 +52,21 @@ C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfo.cs
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.dll
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.deps.json
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csprojAssemblyReference.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csproj.CoreCompileInputs.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfoInputs.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfo.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.deps.json
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csprojAssemblyReference.cache
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.csproj.CoreCompileInputs.cache
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfoInputs.cache
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.AssemblyInfo.cs
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\hkn_k\Desktop\Project\OzelDers\OzelDers.ENT\obj\Debug\netcoreapp2.2\OzelDers.ENT.pdb

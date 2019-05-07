@@ -22,7 +22,7 @@ namespace OzelDers.DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             
-            optionsBuilder.UseSqlServer("Server=ARAZ\\SQLEXPRESS;Database=OzelDersDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=HAKAN\\SQLEXPRESS;Database=OzelDersDB;Trusted_Connection=True;");
             
         }
     }
