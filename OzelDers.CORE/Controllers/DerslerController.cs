@@ -38,7 +38,6 @@ namespace OzelDers.CORE.Controllers
             List<EgitmenDTO> egitmenList = eRep.Doldur().ToList();
             return Json(egitmenList);
 
-
         }
         [HttpPost]
         [AllowAnonymous]
