@@ -41,7 +41,7 @@ namespace OzelDers.CORE.Services
 
             // authentication successful
             return user;
-        }
+        } 
 
         public Egitmen Create(Egitmen egitmen, string password)
         {
@@ -71,16 +71,14 @@ namespace OzelDers.CORE.Services
 
         public IEnumerable<Egitmen> GetAll()
         {
-            return _context.Egitmen;
-
-        }
-
-      
+            return _context.Egitmen; 
+        }  
 
         public void Update(Egitmen egitmen, string password = null)
         {
             throw new NotImplementedException();
         }
+
         private static void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
         {
             if (password == null) throw new ArgumentNullException("password");
@@ -92,6 +90,7 @@ namespace OzelDers.CORE.Services
                 passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
             }
         }
+
         private static bool VerifyPasswordHash(string password, byte[] storedHash, byte[] storedSalt)
         {
             if (password == null) throw new ArgumentNullException("password");
@@ -106,8 +105,7 @@ namespace OzelDers.CORE.Services
                 {
                     if (computedHash[i] != storedHash[i]) return false;
                 }
-            }
-
+            } 
             return true;
         }
 

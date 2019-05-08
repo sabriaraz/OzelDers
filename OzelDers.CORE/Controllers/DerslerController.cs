@@ -22,6 +22,7 @@ namespace OzelDers.CORE.Controllers
         List<int> egitmenIdList;
         EgitmenRepository eRep;
         AraTabloRepository araRep;
+
         IHttpContextAccessor httpContextAccessor;
         public DerslerController(IHttpContextAccessor _httpContextAccessor,OzelDersContext _db, List<int> _egitmenIdList, EgitmenRepository _eRep, AraTabloRepository _araRep)
         {
@@ -31,8 +32,8 @@ namespace OzelDers.CORE.Controllers
             araRep = _araRep;
             egitmenIdList = _egitmenIdList;
         }
-
-        [Authorize, HttpGet]
+        [HttpGet]
+        [Authorize]
         public IActionResult ListAll()
         {
             List<EgitmenDTO> egitmenList = eRep.Doldur().ToList();

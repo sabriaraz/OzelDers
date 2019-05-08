@@ -50,7 +50,6 @@ namespace OzelDers.ENT
             [ForeignKey("DersAlaniId")]
             public virtual DersAlani DersAlani { get; set; }
             public virtual ICollection<AraTablo> AraTablo { get; set; }
-            
         }
 
         [Table("AraTablo")]
@@ -84,8 +83,6 @@ namespace OzelDers.ENT
             [ForeignKey("IlceId")]
             public virtual Ilce Ilce { get; set; }
 
-
-            
             public string Ozgecmis { get; set; }
             public double TelefonNo { get; set; }
             public virtual ICollection<AraTablo> AraTablo { get; set; }

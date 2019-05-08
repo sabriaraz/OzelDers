@@ -238,3 +238,43 @@ C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDer
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.csproj.CopyComplete
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.dll
 C:\Users\Sabri\Desktop\PP\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.deps.json
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.runtimeconfig.json
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.runtimeconfig.dev.json
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.Views.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.CORE.Views.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.BL.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.DAL.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.DTO.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.ENT.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.REP.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.BL.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.DAL.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.DTO.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.ENT.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\bin\Debug\netcoreapp2.2\OzelDers.REP.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.csprojAssemblyReference.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.csproj.CoreCompileInputs.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.RazorAssemblyInfo.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.RazorAssemblyInfo.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.AssemblyInfoInputs.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.AssemblyInfo.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.TagHelpers.input.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.TagHelpers.output.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.RazorCoreGenerate.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.RazorTargetAssemblyInfo.cache
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.RazorTargetAssemblyInfo.cs
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.Views.pdb
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.csproj.CopyComplete
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.dll
+C:\Users\hkn_k\Desktop\Yeni klasör (4)\OzelDers\OzelDers.CORE\obj\Debug\netcoreapp2.2\OzelDers.CORE.pdb

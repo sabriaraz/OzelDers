@@ -21,11 +21,8 @@ namespace OzelDers.BL
             public List<int> egitmenIdList (int dersKonusuId)
             {
                 return Set().Where(x => x.DersKonusuId == dersKonusuId).Select(x => x.EgitmenId).ToList();
-            }
-
-
+            } 
         }
-
         public class IlRepository : BaseRepository<Il>
         {
             public IlRepository(OzelDersContext db) : base(db)
@@ -54,8 +51,7 @@ namespace OzelDers.BL
             }
             public async Task<ICollection<Ilce>> AsnDoldur()
             {
-                return await ListAll();
-
+                return await ListAll(); 
             }
             public ICollection<IlceDTO> Doldur()
             {
@@ -126,7 +122,6 @@ namespace OzelDers.BL
                     ilceId = x.IlceId,
                     AraTablo = x.AraTablo.ToList()
                 }).ToList();
-
             }
 
             public ICollection<EgitmenDTO> Doldur(List<int> egitmenIdList)
@@ -141,9 +136,7 @@ namespace OzelDers.BL
                     ilceId = x.IlceId,
                     AraTablo = x.AraTablo.ToList()
                 }).ToList();
-
             }
-           
         }
     }
 }
